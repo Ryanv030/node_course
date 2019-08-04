@@ -1,0 +1,26 @@
+{
+  "name": "node_course",
+  "version": "1.0.0",
+  "description": "Understanding the ins and out of building a node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-1": "nodemon module_1/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryanv030/node_course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryanv030/node_course/issues"
+  },
+  "homepage": "https://github.com/Ryanv030/node_course#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
