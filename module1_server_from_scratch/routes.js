@@ -30,10 +30,8 @@ function requestHandler(req, res) {
     });
   }
   res.setHeader('Content-Type', 'text/html');
-  res.write('<html>');
-  res.write('<head><title>My Second Page</title></head>');
-  res.write('<body><h1>Hi from server land</h1></body>');
-  res.write('</html>');
+  res.write('<html><head><title>My Second Page</title></head>');
+  res.write('<body><h1>Hi from server land</h1></body></html>');
   res.end();
 }
 
