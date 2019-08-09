@@ -64,6 +64,16 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__placeholder {
+  width: 25px;
+}
+
 .card__header,
 .card__content {
   padding: 1rem;
@@ -121,7 +131,7 @@ main {
 
 .product__title {
   font-size: 1.2rem;
-  text-align: center;
+  margin: auto;
 }
 
 .product__price {
@@ -132,4 +142,8 @@ main {
 
 .product__description {
   text-align: center;
+}
+
+.active {
+  color: rgb(0, 0, 0) !important;
 }
