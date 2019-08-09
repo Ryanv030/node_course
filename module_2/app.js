@@ -25,7 +25,7 @@ app.use(shopRoutes);
 
 // 404 route
 app.use((req, res) => {
-  res.status(404).sendFile(path.join(__dirname, 'views', '404-page.html'));
+  res.render('404-page', { pageTitle: 'Page Not Found' });
 });
 
 app.listen(8080);
