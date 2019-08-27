@@ -10,7 +10,7 @@ let products = [];
 router.get('/add-product', (req, res) => {
   res.render('add-product', {
     pageTitle: 'Add Product',
-    path: '/admin/add-product',
+    path: '/add-product',
     activeAddProduct: true,
     productCSS: true,
   });
